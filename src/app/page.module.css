@@ -1,0 +1,54 @@
+.pageWrapper {
+    margin: 0 auto;
+    max-width: 840px;
+    background-color: white;
+}
+
+.pageWrapper h1 {
+  margin-left: 20px;
+}
+
+.articleCardWrapper {
+    border: 1px solid grey;
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .articleCardWrapper img {
+    max-width: 300px; 
+    padding : 20px;
+    
+  }
+  
+  .articleCardText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    color: black;
+ 
+  }
+  
+
+
+.articlePageHeaderWrapper {
+  background-color: grey;
+  background-size : cover;
+  min-height: 480px;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 100px;
+}
+
+.articlePageContent {
+
+  padding-left : 300px;
+  padding-right : 300px;
+
+}
+
+
+
+
